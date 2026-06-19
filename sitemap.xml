@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- ═══════════════════════════════════════════════
+       FAHID AIR CONDITIONING — sitemap.xml
+       Domain : https://fahadairconditioning.com  (update to live domain)
+       Updated: 2025-06-15
+       ═══════════════════════════════════════════════ -->
+
+  <!-- HOME PAGE -->
+  <url>
+    <loc>https://fahadairconditioning.com/</loc>
+    <lastmod>2025-06-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <!-- Alternate language tags: Arabic (ar-SA) is primary market -->
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://fahadairconditioning.com/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://fahadairconditioning.com/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fahadairconditioning.com/"/>
+    <image:image>
+      <image:loc>https://fahadairconditioning.com/og-home.jpg</image:loc>
+      <image:title>فهد لتكييف الهواء — تصليح مكيفات الرياض 24 ساعة</image:title>
+      <image:caption>Fahad Air Conditioning — AC Repair Riyadh 24/7</image:caption>
+    </image:image>
+  </url>
+
+  <!-- SERVICES PAGE -->
+  <url>
+    <loc>https://fahadairconditioning.com/services</loc>
+    <lastmod>2025-06-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://fahadairconditioning.com/services"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://fahadairconditioning.com/services"/>
+    <image:image>
+      <image:loc>https://fahadairconditioning.com/og-services.jpg</image:loc>
+      <image:title>خدمات تصليح وصيانة وتركيب المكيفات بالرياض</image:title>
+      <image:caption>AC Repair, Installation & Maintenance Services Riyadh</image:caption>
+    </image:image>
+  </url>
+
+  <!-- ABOUT PAGE -->
+  <url>
+    <loc>https://fahadairconditioning.com/about</loc>
+    <lastmod>2025-06-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://fahadairconditioning.com/about"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://fahadairconditioning.com/about"/>
+  </url>
+
+  <!-- CONTACT PAGE -->
+  <url>
+    <loc>https://fahadairconditioning.com/contact</loc>
+    <lastmod>2025-06-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://fahadairconditioning.com/contact"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://fahadairconditioning.com/contact"/>
+  </url>
+
+</urlset>
