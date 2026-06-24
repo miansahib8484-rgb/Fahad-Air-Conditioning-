@@ -98,7 +98,16 @@ body{font-family:var(--font-body);background:var(--white);color:var(--text-dark)
 .float-whatsapp:hover{transform:scale(1.13);box-shadow:0 12px 36px rgba(37,211,102,.7)}
 .float-whatsapp svg{width:32px;height:32px}
 @keyframes wapPulse{0%,100%{box-shadow:0 6px 28px rgba(37,211,102,.55),0 0 0 0 rgba(37,211,102,.4)}50%{box-shadow:0 6px 28px rgba(37,211,102,.55),0 0 0 16px rgba(37,211,102,0)}}
-@media(max-width:600px){.float-whatsapp{bottom:1.2rem;right:1.2rem;width:54px;height:54px}}
+@media (max-width: 600px) {
+  .float-whatsapp {
+    position: fixed;
+    right: 15px;
+    top: 70%;
+    transform: translateY(-50%);
+    width: 56px;
+    height: 56px;
+  }
+}
 
 /* LAYOUT */
 .section{padding:5.5rem 1.5rem}
