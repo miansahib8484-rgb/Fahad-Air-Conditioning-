@@ -4,19 +4,21 @@
   "trailingSlash": false,
 
   "redirects": [
-    { "source": "/home",        "destination": "/",         "permanent": true },
-    { "source": "/index",       "destination": "/",         "permanent": true },
-    { "source": "/index.html",  "destination": "/",         "permanent": true },
-    { "source": "/services.html","destination": "/services","permanent": true },
-    { "source": "/about.html",  "destination": "/about",    "permanent": true },
-    { "source": "/contact.html","destination": "/contact",  "permanent": true },
-    { "source": "/service",     "destination": "/services", "permanent": true },
-    { "source": "/about-us",    "destination": "/about",    "permanent": true },
-    { "source": "/contactus",   "destination": "/contact",  "permanent": true },
-    { "source": "/contact-us",  "destination": "/contact",  "permanent": true },
-    { "source": "/ac-repair",   "destination": "/services", "permanent": true },
-    { "source": "/ac-repair-riyadh","destination": "/services","permanent": true },
-    { "source": "/maintenance", "destination": "/services", "permanent": true }
+    { "source": "/:path*", "has": [{ "type": "host", "value": "fahadairconditioning.com" }], "destination": "https://www.fahadairconditioning.com/:path*", "permanent": true },
+
+    { "source": "/home",             "destination": "/",         "permanent": true },
+    { "source": "/index",            "destination": "/",         "permanent": true },
+    { "source": "/index.html",       "destination": "/",         "permanent": true },
+    { "source": "/services.html",    "destination": "/services", "permanent": true },
+    { "source": "/about.html",       "destination": "/about",    "permanent": true },
+    { "source": "/contact.html",     "destination": "/contact",  "permanent": true },
+    { "source": "/service",          "destination": "/services", "permanent": true },
+    { "source": "/about-us",         "destination": "/about",    "permanent": true },
+    { "source": "/contactus",        "destination": "/contact",  "permanent": true },
+    { "source": "/contact-us",       "destination": "/contact",  "permanent": true },
+    { "source": "/ac-repair",        "destination": "/services", "permanent": true },
+    { "source": "/ac-repair-riyadh", "destination": "/services", "permanent": true },
+    { "source": "/maintenance",      "destination": "/services", "permanent": true }
   ],
 
   "headers": [
