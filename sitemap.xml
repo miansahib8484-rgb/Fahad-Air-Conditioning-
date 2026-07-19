@@ -5,15 +5,15 @@
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
   <!-- ═══════════════════════════════════════════════
-       FAHID AIR CONDITIONING — sitemap.xml
-       Domain : https://www.fahadairconditioning.com  (update to live domain)
-       Updated: 2026-06-29
+       FAHAD AIR CONDITIONING — sitemap.xml
+       Domain : https://www.fahadairconditioning.com
+       Updated: 2026-07-19
        ═══════════════════════════════════════════════ -->
 
   <!-- HOME PAGE -->
   <url>
     <loc>https://www.fahadairconditioning.com/</loc>
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <!-- Alternate language tags: Arabic (ar-SA) is primary market -->
@@ -30,7 +30,7 @@
   <!-- SERVICES PAGE -->
   <url>
     <loc>https://www.fahadairconditioning.com/services</loc>
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
     <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.fahadairconditioning.com/services"/>
@@ -45,7 +45,7 @@
   <!-- ABOUT PAGE -->
   <url>
     <loc>https://www.fahadairconditioning.com/about</loc>
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
     <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.fahadairconditioning.com/about"/>
@@ -55,7 +55,7 @@
   <!-- CONTACT PAGE -->
   <url>
     <loc>https://www.fahadairconditioning.com/contact</loc>
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.fahadairconditioning.com/contact"/>
