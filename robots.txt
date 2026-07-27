@@ -1,7 +1,7 @@
 # ═══════════════════════════════════════════════════════
 # robots.txt — Fahad Air Conditioning
-# https://fahidac.com
-# Last updated: 2025-06-15
+# https://www.fahadairconditioning.com
+# Last updated: 2026-07-19
 # ═══════════════════════════════════════════════════════
 
 # ── ALLOW ALL LEGITIMATE CRAWLERS ────────────────────
@@ -41,7 +41,7 @@ User-agent: omgili
 Disallow: /
 
 # ── SITEMAPS ──────────────────────────────────────────
-Sitemap: https://fahidac.com/sitemap.xml
+Sitemap: https://www.fahadairconditioning.com/sitemap.xml
 
 # ── CRAWL DELAY (optional, for politeness) ───────────
 # Crawl-delay: 1
