@@ -62,4 +62,44 @@
     <xhtml:link rel="alternate" hreflang="en"    href="https://www.fahadairconditioning.com/contact"/>
   </url>
 
+  <!-- BLOG MAIN PAGE -->
+  <url>
+    <loc>https://www.fahadairconditioning.com/blog</loc>
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.fahadairconditioning.com/blog"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://www.fahadairconditioning.com/blog"/>
+  </url>
+
+  <!-- BLOG ARTICLE: AC NOT COOLING -->
+  <url>
+    <loc>https://www.fahadairconditioning.com/blog/ac-not-cooling</loc>
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.fahadairconditioning.com/blog/ac-not-cooling"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://www.fahadairconditioning.com/blog/ac-not-cooling"/>
+  </url>
+
+  <!-- BLOG ARTICLE: GAS REFILL COST -->
+  <url>
+    <loc>https://www.fahadairconditioning.com/blog/gas-refill-cost-riyadh</loc>
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.fahadairconditioning.com/blog/gas-refill-cost-riyadh"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://www.fahadairconditioning.com/blog/gas-refill-cost-riyadh"/>
+  </url>
+
+  <!-- BLOG ARTICLE: AC BROKE DOWN SUMMER -->
+  <url>
+    <loc>https://www.fahadairconditioning.com/blog/ac-not-working-summer</loc>
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.fahadairconditioning.com/blog/ac-not-working-summer"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://www.fahadairconditioning.com/blog/ac-not-working-summer"/>
+  </url>
+
 </urlset>
