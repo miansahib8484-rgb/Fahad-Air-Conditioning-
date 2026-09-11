@@ -16,9 +16,20 @@
     { "source": "/about-us",         "destination": "/about",    "permanent": true },
     { "source": "/contactus",        "destination": "/contact",  "permanent": true },
     { "source": "/contact-us",       "destination": "/contact",  "permanent": true },
-    { "source": "/ac-repair",        "destination": "/services", "permanent": true },
-    { "source": "/ac-repair-riyadh", "destination": "/services", "permanent": true },
-    { "source": "/maintenance",      "destination": "/services", "permanent": true }
+    { "source": "/maintenance",      "destination": "/ac-maintenance-riyadh", "permanent": true },
+
+    { "source": "/ac-repair",                "destination": "/ac-repair-riyadh",          "permanent": true },
+    { "source": "/ac-repair-service",        "destination": "/ac-repair-riyadh",          "permanent": true },
+    { "source": "/ac-service",               "destination": "/ac-repair-riyadh",          "permanent": true },
+    { "source": "/ac-service-riyadh",        "destination": "/ac-repair-riyadh",          "permanent": true },
+    { "source": "/ac-maintenance",           "destination": "/ac-maintenance-riyadh",     "permanent": true },
+    { "source": "/ac-installation",          "destination": "/ac-installation-riyadh",    "permanent": true },
+    { "source": "/ac-install",               "destination": "/ac-installation-riyadh",    "permanent": true },
+    { "source": "/ac-gas-refill",            "destination": "/ac-gas-refill-riyadh",      "permanent": true },
+    { "source": "/gas-refill",               "destination": "/ac-gas-refill-riyadh",      "permanent": true },
+    { "source": "/freon-refill",             "destination": "/ac-gas-refill-riyadh",      "permanent": true },
+    { "source": "/split-ac-repair",          "destination": "/split-ac-repair-riyadh",    "permanent": true },
+    { "source": "/central-ac-repair",        "destination": "/central-ac-repair-riyadh",  "permanent": true }
   ],
 
   "headers": [

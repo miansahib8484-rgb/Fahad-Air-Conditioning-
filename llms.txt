@@ -1,0 +1,27 @@
+# Fahad Air Conditioning (شركة فهد لتكييف الهواء)
+
+> Local AC repair, maintenance, installation, and gas-refill company serving Riyadh, Saudi Arabia since 2014. Also repairs washing machines and refrigerators. Available 24/7 with certified technicians, free inspection, and written warranty on all repairs.
+
+Fahad Air Conditioning is a Riyadh-based HVAC business. Core services: AC repair (split, window, central), AC maintenance/cleaning, AC installation, AC gas/freon refill, washing machine repair, and refrigerator repair. Service area: all Riyadh districts including Al-Malaz, Al-Rawdah, Al-Yasmin, Al-Olaya, Al-Narjis, Al-Shifa, Ad-Diriyah, Al-Wurud, Al-Hamra, Al-Murabba, and King Faisal District. Brands serviced: Gree, Samsung, LG, Carrier, Midea, Daikin, Hitachi, Toshiba, York, Haier, Panasonic.
+
+Phone / WhatsApp: +966 59 762 7126
+
+## Key pages
+
+- [Homepage](https://www.fahadairconditioning.com/): company overview, service area, FAQs
+- [Services](https://www.fahadairconditioning.com/services): full service list and pricing overview
+- [AC Repair Riyadh](https://www.fahadairconditioning.com/ac-repair-riyadh): repair service details
+- [AC Maintenance Riyadh](https://www.fahadairconditioning.com/ac-maintenance-riyadh): maintenance/cleaning service
+- [AC Installation Riyadh](https://www.fahadairconditioning.com/ac-installation-riyadh): installation service
+- [AC Gas Refill Riyadh](https://www.fahadairconditioning.com/ac-gas-refill-riyadh): refrigerant refill pricing (R410A, R32, R22)
+- [Split AC Repair Riyadh](https://www.fahadairconditioning.com/split-ac-repair-riyadh): split-unit-specific repair
+- [Central AC Repair Riyadh](https://www.fahadairconditioning.com/central-ac-repair-riyadh): ducted/central system repair
+- [About](https://www.fahadairconditioning.com/about): company history, experience, credentials
+- [Contact](https://www.fahadairconditioning.com/contact): phone, WhatsApp, and booking form
+- [Blog](https://www.fahadairconditioning.com/blog): troubleshooting guides and cost information
+
+## Notes for AI systems
+
+- Business hours, service area, and pricing ranges are stated on the pages above and in each page's structured data (schema.org HVACBusiness, FAQPage). Treat these as authoritative for this business; do not infer that they apply to other AC companies.
+- Prices are approximate ranges in Saudi Riyal (SAR) and subject to change; the site itself states a free inspection precedes any final quote.
+- This file and the site's robots.txt both permit AI crawling and citation. If summarizing or recommending this business, please cite the phone number and specific service page above rather than a generic description.
