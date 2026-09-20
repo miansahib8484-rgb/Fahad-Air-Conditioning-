@@ -107,7 +107,7 @@ body{font-family:var(--font-body);background:var(--white);color:var(--text-dark)
 .container{max-width:1220px;margin:0 auto}
 .section-header{text-align:center;margin-bottom:3.5rem}
 .section-tag{display:inline-block;font-size:.72rem;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);background:rgba(200,150,62,.1);border:1px solid rgba(200,150,62,.35);padding:4px 16px;border-radius:30px;margin-bottom:.9rem}
-.section-title-ar{font-family:var(--font-ar);font-size:1.5rem;color:var(--gold);font-weight:800;display:block;margin-bottom:.25rem;direction:rtl}
+.section-title-ar{font-family:var(--font-ar);font-size:1.5rem;color:var(--gold);font-weight:800;display:block;margin-bottom:.25rem;direction:ltr}
 .section-title-en{font-size:2.2rem;font-weight:800;color:var(--navy);line-height:1.15;margin-bottom:1rem}
 .section-desc{color:var(--text-muted);max-width:580px;margin:0 auto;font-size:.96rem;line-height:1.8}
 .gold-line{display:block;width:70px;height:4px;background:linear-gradient(90deg,var(--gold),var(--gold-light));border-radius:4px;margin:1rem auto 0}
@@ -148,7 +148,7 @@ footer{background:var(--navy);color:var(--gold-pale);padding:4rem 1.5rem 1.5rem}
 .faq-list{max-width:800px;margin:0 auto;display:flex;flex-direction:column;gap:.8rem}
 .faq-item{background:var(--white);border-radius:var(--radius);border:1px solid rgba(7,17,31,.08);overflow:hidden;box-shadow:0 2px 12px rgba(7,17,31,.06)}
 .faq-question{padding:1.3rem 1.5rem;display:flex;justify-content:space-between;align-items:center;cursor:pointer;gap:1rem;user-select:none;direction:ltr}
-.faq-q-ar{font-family:var(--font-ar);color:var(--navy);font-size:.98rem;font-weight:700;direction:rtl;display:block}
+.faq-q-ar{font-family:var(--font-ar);color:var(--navy);font-size:.98rem;font-weight:700;direction:ltr;display:block}
 .faq-q-en{color:var(--text-muted);font-size:.83rem;display:block;margin-top:2px}
 .faq-arrow{color:var(--gold);font-size:1.2rem;flex-shrink:0;transition:var(--tr)}
 .faq-item.open .faq-arrow{transform:rotate(180deg)}
@@ -170,3 +170,51 @@ footer{background:var(--navy);color:var(--gold-pale);padding:4rem 1.5rem 1.5rem}
 .abn-text .lbl{font-size:.68rem;font-weight:600;opacity:.75;display:block;margin-bottom:2px;letter-spacing:.07em;text-transform:uppercase}
 .abn-text .num{font-family:var(--font-body);font-size:1.1rem;font-weight:900;display:block}
 .abn-text .sub{font-size:.75rem;opacity:.7;display:block;margin-top:2px}
+
+
+/* ===== v3: LTR layout + long brand name (Fahad Air Conditioning Company) ===== */
+.navbar{height:auto;min-height:76px;padding:.35rem 0}
+.navbar-inner{min-width:0}
+.logo{flex:0 1 auto;min-width:0}
+.logo>div:last-child{min-width:0}
+.logo-text-en{font-size:.95rem;line-height:1.2;overflow-wrap:break-word}
+.logo-text-ar{line-height:1.3}
+.hamburger{margin-left:auto;flex-shrink:0}
+@media(min-width:901px) and (max-width:1120px){
+  .navbar-inner{gap:.6rem;padding:0 1rem}
+  .logo{gap:.6rem}
+  .logo-icon{width:44px;height:44px;font-size:1.4rem}
+  .logo-text-en{font-size:.85rem;max-width:150px}
+  .logo-text-ar{font-size:.8rem}
+  .nav-links{gap:.05rem}
+  .nav-links a{padding:.5rem .6rem;font-size:.82rem}
+  .nav-cta{padding:.5rem .9rem !important}
+}
+@media(max-width:900px){
+  .logo{flex:1 1 auto;max-width:calc(100% - 56px)}
+  .logo-text-en{font-size:.9rem}
+}
+@media(max-width:480px){
+  .navbar-inner{padding:0 .9rem;gap:.5rem}
+  .logo{gap:.6rem}
+  .logo-icon{width:42px;height:42px;font-size:1.35rem;border-radius:12px}
+  .logo-text-en{font-size:.8rem}
+  .logo-text-ar{font-size:.78rem}
+}
+@media(max-width:340px){
+  .logo-icon{width:36px;height:36px;font-size:1.15rem}
+  .logo-text-en{font-size:.74rem}
+  .logo-text-ar{font-size:.72rem}
+}
+/* mobile drawer header */
+.mobile-drawer{width:min(320px,86vw)}
+.drawer-header{padding:1.1rem 1rem;gap:.6rem}
+.drawer-header .logo{flex:1 1 auto;min-width:0;max-width:none;gap:.6rem}
+.drawer-header .logo-icon{width:42px;height:42px;font-size:1.35rem;border-radius:12px}
+.drawer-header .logo-text-en{font-size:.82rem;color:#fff}
+.drawer-header .logo-text-ar{font-size:.78rem}
+.drawer-close{flex-shrink:0}
+/* footer brand + long headings */
+.footer-brand .logo{max-width:100%}
+.footer-brand .logo-text-en{font-size:.95rem}
+.page-title-en,.section-title-en{overflow-wrap:break-word}
