@@ -1,5 +1,5 @@
 # ═══════════════════════════════════════════════════════
-# robots.txt — Fahad Air Conditioning Company
+# robots.txt — Fahad Air Conditioning
 # https://www.fahadairconditioning.com
 # Last updated: 2026-09-09
 # ═══════════════════════════════════════════════════════
